@@ -4,13 +4,9 @@ Blog chosen : Hybrid Programming using Python and Dart by Mihir Panchal on [Geek
 
 ## Review:
 
-This blog post provides a progressive description on hybrid programming utilizing the example of Python and Dart. At the beginning , the approach is branched into two 
-possiblilities such that either can be divided to perform specified functions according , or instead opt for a wrapper library called DartPy which hence leads to the 
-practical application of Hybrid programming through the lens of DartPy which in its literal sense is a hybrid of both the programming languages.
+This blog post provides a progressive description on hybrid programming utilizing the example of Python and Dart. At the beginning , the approach is branched into two possiblilities such that it can either be divided to perform specified functions accordingly, or instead opt for a wrapper library called DartPy which hence leads to the practical application of Hybrid programming through the lens of DartPy which in its literal sense is a hybrid of both the programming languages.
 
-The working is then explained by the elaboration of API calling where Python C-API and dart:ffi are used for embedding python code. I really like that the pathing issue is 
-addressed beforehand to make the readers be wary of the dependancy issues that might come up before the methodology and listed out. This Dart library is imported into the 
-flutter environment.
+The working is then explained by the elaboration of API calling where Python C-API and dart:ffi are used for embedding python code. I really like that the pathing issue is addressed beforehand to make the readers be wary of the dependancy issues that might come up before the methodology is listed out. This Dart library is imported into the flutter environment.
 
 The methodology was upfront to point out the need for the additional DartPy API, despite the rich core libraries already present in Dart Programming , as it is employed
 to achieve hybrid programming in mobile applications. The pre-requesites to be downloaded are mentioned in a concise step-by-step manner , following which we can use
