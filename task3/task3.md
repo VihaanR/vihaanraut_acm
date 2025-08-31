@@ -21,5 +21,5 @@ implementation in mobile application features and functionality.
 Introduced me to a whole new framework called Dart while teaching me hybrid programming at the same time . Helped me become consious abut paths and pre-requisites before
 code exectution.
 
-One of the key details I adored was the constant callbacks on concepts which really matters a lot , especially in ACM Research where *each word matters* . 
+One of the key details I adored was the constant callbacks to concepts stated before,which really matters a lot , especially in ACM Research where *each word matters* . 
 I would keep such things in mind when I become a Co-com member in ACM Research to note down concepts that will be implemented throughout the research paper and blogs.
