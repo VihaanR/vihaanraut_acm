@@ -27,7 +27,6 @@ def number_mischief(num: str) -> str:
   return ''.join(roman_map.get(d, '') for d in num)
 
 def lang_mischief(text: str) -> str:
-  # simple dictionary-driven replacement (handles lowercase and Capitalized)
   lang_map = {'python': '🐍',
                 'java': '☕',
                 'ruby': '♦️ ',
@@ -49,17 +48,18 @@ def transform_text(text: str) -> str:
     text = re.sub(date_pattern, date_to_words, text)
 
     # then convert any 10-digit number starting with '9' to roman-per-digit
-    transoformed_text = []
+    transformed_text = []
     i = 0
     length = len(text)
     while i < length:
         if text.startswith('9', i) and i + 10 <= length and text[i:i+10].isdigit():
-            transoformed_text.append(number_mischief(text[i:i+10]))
+            transformed_text.append(number_mischief(text[i:i+10]))
             i += 10
         else:
-            transoformed_text.append(text[i])
+            transformed_text.append(text[i])
             i += 1
-    return ''.join(transoformed_text)
+    return ''.join(transformed_text)
 
-text="Call me at 9812345678 on 2025-08-23. I love Python more than Java. Maye ruby and C# are good too."
+text="Call me at 9812345678 on 2025-08-23. I love Python more than Java. Maybe ruby and C# are good too."
 print(transform_text(text)) 
+#Call me at IXVIIIIIIIIIIVVVIVIIVIII on 23rd August 2025. I love 🐍 more than ☕. Maybe ♦️  and 🎼 are good too.
