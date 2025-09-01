@@ -1,4 +1,4 @@
-# Task 3
+i# Task 3
 
 Blog chosen : Hybrid Programming using Python and Dart by Mihir Panchal on [GeeksforGeeks](https://www.geeksforgeeks.org/python/hybrid-programming-using-python-and-dart/)
 
@@ -14,7 +14,7 @@ the methods from the DartPly library by simply calling them by using `dartpyc.Py
 
 The blog cleverly then calls back to the working of DartPly library. The python code is stored in a Dart  string variable which itself gets converted 
 into C-encoded nativeutf8 by dart:ffi library thus displaying the concept of hybrid programming. The ouptut from the python code is then used by dart for 
-implementation in mobile application features and functionality.
+implementation of mobile application features and functionality.
 
 ## Conclusion: 
 
